@@ -1,6 +1,6 @@
 <?php
 
-namespace Moip\MoipHttpPhp;
+namespace Sostheblack\Http;
 
 /**
  * Base para facilitar a implementação da interface HTTPRequest para uma
@@ -52,7 +52,7 @@ abstract class AbstractHTTPRequest extends AbstractHttp implements HTTPRequest
      *
      * @throws \InvalidArgumentException Se o nome ou o valor do campo não forem valores scalar.
      * 
-     * @see \Moip\MoipHttpPhp\HTTPRequest::addRequestHeader()
+     * @see \Sostheblack\Http\HTTPRequest::addRequestHeader()
      */
     public function addRequestHeader($name, $value, $override = true)
     {
@@ -62,9 +62,9 @@ abstract class AbstractHTTPRequest extends AbstractHttp implements HTTPRequest
     /**
      * Autentica uma requisição HTTP.
      *
-     * @param \Moip\MoipHttpPhp\HTTPAuthenticator $authenticator
+     * @param \Sostheblack\Http\HTTPAuthenticator $authenticator
      *
-     * @see \Moip\MoipHttpPhp\HTTPRequest::authenticate()
+     * @see \Sostheblack\Http\HTTPRequest::authenticate()
      */
     public function authenticate(HTTPAuthenticator $authenticator)
     {
@@ -75,7 +75,7 @@ abstract class AbstractHTTPRequest extends AbstractHttp implements HTTPRequest
      * Abre a requisição.
      *
      * 
-     * @see \Moip\MoipHttpPhp\HTTPRequest::getResponse()
+     * @see \Sostheblack\Http\HTTPRequest::getResponse()
      */
     public function getResponse()
     {
@@ -91,7 +91,7 @@ abstract class AbstractHTTPRequest extends AbstractHttp implements HTTPRequest
      *
      * @throws \InvalidArgumentException Se o nome ou o valor do campo não forem valores scalar.
      *
-     * @see \Moip\MoipHttpPhp\HTTPRequest::setParameter()
+     * @see \Sostheblack\Http\HTTPRequest::setParameter()
      */
     public function setParameter($name, $value)
     {
@@ -99,7 +99,7 @@ abstract class AbstractHTTPRequest extends AbstractHttp implements HTTPRequest
     }
 
     /**
-     * @see \Moip\MoipHttpPhp\HTTPRequest::setRequestBody()
+     * @see \Sostheblack\Http\HTTPRequest::setRequestBody()
      *
      * @param string $requestBody
      */

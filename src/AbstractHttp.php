@@ -1,6 +1,6 @@
 <?php
 
-namespace Moip\MoipHttpPhp;
+namespace Sostheblack\Http;
 
 abstract class AbstractHttp
 {

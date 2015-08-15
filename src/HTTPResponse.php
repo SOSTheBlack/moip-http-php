@@ -1,6 +1,6 @@
 <?php
 
-namespace Moip\MoipHttpPhp;
+namespace Sostheblack\Http;
 
 /**
  * Implementação de um objeto representa uma resposta HTTP.
@@ -150,7 +150,7 @@ class HTTPResponse
      * Define a resposta da requisição HTTP.
      * 
      * @param string $response Toda a resposta da requisição
-     * @param \Moip\MoipHttpPhp\CookieManager
+     * @param \Sostheblack\Http\CookieManager
      */
     public function setRawResponse($response)
     {

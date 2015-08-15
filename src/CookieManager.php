@@ -1,6 +1,6 @@
 <?php
 
-namespace Moip\MoipHttpPhp;
+namespace Sostheblack\Http;
 
 use Serializable;
 
@@ -12,7 +12,7 @@ interface CookieManager extends Serializable
     /**
      * Adiciona um cookie para ser armazenado pelo gerenciador.
      *
-     * @param \Moip\MoipHttpPhp\Cookie $cookie
+     * @param \Sostheblack\Http\Cookie $cookie
      */
     public function addCookie(Cookie $cookie);
 
