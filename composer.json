@@ -1,5 +1,5 @@
 {
-    "name": "sostheblack",
+    "name": "sostheblack/moip-http-php",
     "description": "Facilitar a implementação da interface HTTPRequest",
     "keywords": ["libraries", "moip", "http"],
     "homepage": "https://github.com/moip/moip-http-php",
